@@ -1,0 +1,5 @@
+# Core dependencies for the RAG evaluation starter project
+jsonlines
+pytest
+ruff
+black
