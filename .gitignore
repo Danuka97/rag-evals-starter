@@ -1,0 +1,4 @@
+google-cloud-sdk/
+platform/gsutil/
+**/google-cloud-sdk/**
+**/platform/gsutil/**
