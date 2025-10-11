@@ -1,5 +1,4 @@
 import sys
-sys.path.append("/Users/danukatheja/Downloads/rag-eval/rag-evals-starter/src/adk/agents/rag")
 
 from google.adk.tools import VertexAiSearchTool
 from google.genai import types
