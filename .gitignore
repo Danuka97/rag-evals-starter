@@ -2,3 +2,21 @@ google-cloud-sdk/
 platform/gsutil/
 **/google-cloud-sdk/**
 **/platform/gsutil/**
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.env
+
+# Virtual environments
+.venv
