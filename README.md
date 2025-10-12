@@ -31,7 +31,7 @@ Follow these steps to set up the project locally.
 git clone https://github.com/Danuka97/rag-evals-starter.git
 cd rag-evals-starter
 ```
-### 3️⃣ Install Dependencies (using [uv](https://github.com/astral-sh/uv))
+### 2️⃣ Install Dependencies (using [uv](https://github.com/astral-sh/uv))
 
 Sync and install all dependencies:
 
