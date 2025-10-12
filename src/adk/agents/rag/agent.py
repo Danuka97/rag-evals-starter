@@ -15,7 +15,9 @@ from google.adk.tools import FunctionTool
 from google.adk.runners import Runner
 # from google.adk.code_executors import BuiltInCodeExecutor
 
-
+PROJECT_ID = "modified-glyph-467209-c9"
+LOCATION   = "europe-west4"  # use a supported region
+CORPUS     = "projects/modified-glyph-467209-c9/locations/europe-west4/ragCorpora/2305843009213693952"
 
 vertexai.init(project=PROJECT_ID, location=LOCATION)
 
