@@ -2,7 +2,21 @@
 
 [![CI](https://github.com/your-org/rag-evals-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/your-org/rag-evals-starter/actions/workflows/ci.yml)
 
-A reproducible Retrieval‑Augmented Generation (RAG) evaluation pipeline that demonstrates how to measure retrieval quality and answer faithfulness.  This repository contains a small demo application, an example dataset, a simple RAG pipeline and unit tests.  The goal is to make it straightforward to reproduce experiments and iterate on improvements.
+A reproducible Retrieval‑Augmented Generation (RAG) evaluation pipeline that demonstrates how to measure retrieval quality and answer faithfulness useing GCP pgvector.  This repository contains a small demo rag application, an example dataset, a simple RAG pipeline and unit tests.  The goal is to make it straightforward to reproduce experiments and iterate on improvements.
+
+## 🚀 Prerequisites
+
+Before running the ingestion or evaluation scripts, make sure you have the following configured.
+
+### 🧩 System Requirements
+* Python 3.11+
+
+* PostgreSQL 14+ with the pgvector extension
+
+```sql
+CREATE EXTENSION IF NOT EXISTS vector;
+```
+* .evn file with 
 
 ## Overview
 
