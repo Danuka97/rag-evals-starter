@@ -38,11 +38,12 @@ Sync and install all dependencies:
 ```bash
 uv sync
 ```
+Activate the virtual environment:
 
 ```bash
 source .venv/bin/activate
 ```
-
+To add a new dependency later:
 ```bash
 uv add package-name
 ```
