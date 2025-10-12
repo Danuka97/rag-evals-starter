@@ -19,6 +19,33 @@ CREATE EXTENSION IF NOT EXISTS vector;
 * .evn file with 
 > 💡 Copy `.env.example` → `.env` and update it with your own credentials.
 
+## 🛠️ Installation
+
+Follow these steps to set up the project locally.
+
+---
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Danuka97/rag-evals-starter.git
+cd rag-evals-starter
+```
+### 3️⃣ Install Dependencies (using [uv](https://github.com/astral-sh/uv))
+
+Sync and install all dependencies:
+
+```bash
+uv sync
+```
+
+```bash
+source .venv/bin/activate
+```
+
+```bash
+uv add package-name
+```
 
 ## Overview
 
