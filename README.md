@@ -6,14 +6,17 @@ A reproducible Retrieval‑Augmented Generation (RAG) evaluation pipeline that d
 
 ## 🚀 Prerequisites
 
+Before running the ingestion or evaluation scripts, make sure you have the following configured.
+
+### 🧩 System Requirements
 * Python 3.11+
 
 * PostgreSQL 14+ with the pgvector extension
 
-```bash
+```sql
 CREATE EXTENSION IF NOT EXISTS vector;
 ```
-
+* .evn file with 
 
 ## Overview
 
