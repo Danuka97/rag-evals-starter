@@ -59,6 +59,8 @@ Each script can be executed directly with `python -m`.
 
 download dataset from Hugging Face 
 
+**Command:**
+
 ```bash
 PYTHONPATH=src python -m rag_evals_starter.data_processing.HF-data-processing \
   --dataset neural-bridge/rag-dataset-1200 \
