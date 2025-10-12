@@ -4,7 +4,7 @@
 
 A reproducible Retrieval‑Augmented Generation (RAG) evaluation pipeline that demonstrates how to measure retrieval quality and answer faithfulness useing GCP pgvector.  This repository contains a small demo rag application, an example dataset, a simple RAG pipeline and unit tests.  The goal is to make it straightforward to reproduce experiments and iterate on improvements.
 
-🚀 ## Prerequisites
+## 🚀 Prerequisites
 
 * Python 3.11+
 
