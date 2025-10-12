@@ -7,6 +7,7 @@ A reproducible Retrieval‑Augmented Generation (RAG) evaluation pipeline that d
 🚀 ## Prerequisites
 
 Python 3.11+
+
 PostgreSQL 14+ with the pgvector extension
 
 ```bash
