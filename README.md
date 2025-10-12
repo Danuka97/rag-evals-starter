@@ -48,6 +48,25 @@ To add a new dependency later:
 uv add package-name
 ```
 
+## 🧠 CLI Commands
+
+This project provides several command-line interfaces (CLIs) under the `src/rag_evals_starter` package.  
+Each script can be executed directly with `python -m`.
+
+---
+
+### 🧩 1️⃣ Data Ingestion
+
+Ingest a CSV dataset into PostgreSQL + PGVector with Vertex AI embeddings.
+
+**Command:**
+
+```bash
+PYTHONPATH=src python -m rag_evals_starter.data_processing.data_ingestion \
+  --csv_file_path ./data/rag_dataset_test.csv \
+  --column_name context
+```
+
 ## Overview
 
 This starter project provides a minimal yet fully structured example of a RAG evaluation pipeline.  It includes:
