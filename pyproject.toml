@@ -1,0 +1,20 @@
+[project]
+name = "rag-evals-starter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "adk>=0.0.5",
+    "datasets>=4.2.0",
+    "google-cloud-aiplatform>=1.120.0",
+    "langchain>=0.2",
+    "langchain-community>=0.2",
+    "langchain-google-vertexai>=2.1.2",
+    "pandas>=2.3.3",
+    "pgvector>=0.2.4",
+    "psycopg2-binary>=2.9.11",
+    "pydantic>=2",
+    "python-dotenv>=1.1.1",
+    "sqlalchemy>=2.0",
+]
