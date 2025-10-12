@@ -1,9 +1,10 @@
 [project]
 name = "rag-evals-starter"
 version = "0.1.0"
-description = "Add your description here"
+description = "RAG evaluation framework with LangChain, PGVector, and Vertex AI"
+authors = [{ name = "Danuka Wickramasinghe" }]
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
     "adk>=0.0.5",
     "datasets>=4.2.0",
@@ -18,3 +19,6 @@ dependencies = [
     "python-dotenv>=1.1.1",
     "sqlalchemy>=2.0",
 ]
+
+[tool.uv]
+dev-dependencies = ["pytest", "jupyter"]
