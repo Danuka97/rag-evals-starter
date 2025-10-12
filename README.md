@@ -57,7 +57,7 @@ Each script can be executed directly with `python -m`.
 
 ### 🧩 1️⃣ Data Download
 
-download dataset from Hugging Face 
+Download dataset from Hugging Face 
 
 **Command:**
 
