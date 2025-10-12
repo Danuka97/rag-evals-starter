@@ -17,6 +17,8 @@ Before running the ingestion or evaluation scripts, make sure you have the follo
 CREATE EXTENSION IF NOT EXISTS vector;
 ```
 * .evn file with 
+> 💡 Copy `.env.example` → `.env` and update it with your own credentials.
+
 
 ## Overview
 
