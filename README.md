@@ -55,7 +55,16 @@ Each script can be executed directly with `python -m`.
 
 ---
 
-### 🧩 1️⃣ Data Ingestion
+### 🧩 1️⃣ Data Download
+
+download dataset from Hugging Face 
+
+```bash
+PYTHONPATH=src python -m rag_evals_starter.data_processing.HF-data-processing \
+  --dataset neural-bridge/rag-dataset-1200 \
+  --save_location /Users/danukatheja/Downloads/rageval/rag-evals-starter/data --file_name rag_data_test
+```
+### 🧩 2️⃣ Data Ingestion
 
 Ingest a CSV dataset into PostgreSQL + PGVector with Vertex AI embeddings.
 
@@ -66,6 +75,8 @@ PYTHONPATH=src python -m rag_evals_starter.data_processing.data_ingestion \
   --csv_file_path ./data/rag_dataset_test.csv \
   --column_name context
 ```
+
+
 
 ## Overview
 
