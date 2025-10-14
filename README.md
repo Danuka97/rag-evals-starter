@@ -79,6 +79,8 @@ PYTHONPATH=src python -m rag_evals_starter.data_processing.data_ingestion \
 ```
 ### 🧩 3️⃣ RAG Generation 
 
+Use this to genrate answers with rag and store them
+
 ```bash
 PYTHONPATH=src python -m rag_evals_starter.pipelines.pgvectorRAG \                                           
   --csv_file_path ./data/rag_dataset_test.csv \
