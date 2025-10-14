@@ -77,7 +77,14 @@ PYTHONPATH=src python -m rag_evals_starter.data_processing.data_ingestion \
   --csv_file_path ./data/rag_dataset_test.csv \
   --column_name context
 ```
+### 🧩 3️⃣ RAG Generation 
 
+```bash
+PYTHONPATH=src python -m rag_evals_starter.pipelines.pgvectorRAG \                                           
+  --csv_file_path ./data/rag_dataset_test.csv \
+  --column_name question --file_name context_answers \
+  --save_location /Users/danukatheja/Downloads/rageval/rag-evals-starter/data
+```
 
 
 ## Overview
